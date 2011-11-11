@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="orientationKeys">
+        <item>portrait</item>
+        <item>landscape</item>
+        <item>default</item>
+    </string-array>
+    <string-array name="orientationValues">
+        <item>縦画面固定</item>
+        <item>横画面固定</item>
+        <item>固定しない</item>
+    </string-array>
+    <string-array name="themeKeys">
+        <item>Black</item>
+        <item>White</item>
+    </string-array>
+    <string-array name="themeValues">
+        <item>黒</item>
+        <item>白</item>
+    </string-array>
+    <string-array name="fontSizeKeys">
+        <item>Small</item>
+        <item>Middle</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="fontSizeValues">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="iconSizeKeys">
+        <item>Small</item>
+        <item>Middle</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="iconSizeValues">
+        <item>小</item>
+        <item>中</item>
+        <item>大</item>
+    </string-array>
+    <string-array name="quoteTweetKeys">
+        <item>unofficialRetweet</item>
+        <item>unofficialRetweetVia</item>
+        <item>quotedTweet</item>
+        <item>quotedTweetVia</item>
+        <item>quotedTweetMark</item>
+        <item>quotedTweetMark2</item>
+        <!--<item>repostLinkTweet</item>-->
+    </string-array>
+    <string-array name="quoteTweetValues">
+        <item>RT @***: ～</item>
+        <item>RT ～ (via @***)</item>
+        <item> QT @***: ～</item>
+        <item> QT ～ (via @***)</item>
+        <item> “@ ***: ～</item>
+        <item> “@ ***: ～”</item>
+        <!--<item> RL @***: http://～)</item>-->
+    </string-array>
+</resources>

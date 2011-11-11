@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/main">
+    <ListView android:id="@+id/mainList" android:layout_height="wrap_content" android:layout_width="fill_parent"></ListView>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/btnList" android:layout_width="fill_parent" android:layout_alignParentBottom="true">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tweetBtn" android:layout_weight="1" android:enabled="false" android:text="@string/tweetText"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/loadBtn" android:layout_weight="1" android:enabled="false" android:text="@string/loadText"></Button>
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/streamBtn" android:layout_weight="1" android:enabled="false" android:text="@string/userStreamDisconnectedText"></Button>
+    </LinearLayout>
+</RelativeLayout>

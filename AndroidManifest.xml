@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.mntone.twijue"
+      android:versionName="0.16β1" android:versionCode="01601">
+    <uses-sdk android:minSdkVersion="4" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application android:icon="@drawable/icon" android:label="@string/appName" android:debuggable="true">
+        <activity android:name="ActivityHome"
+                  android:label="@string/appName"
+                  android:screenOrientation="user"
+                  android:launchMode="singleTop"
+                  android:theme="@style/Black.Middle.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="ActivityLogin" android:launchMode="singleTop" android:screenOrientation="behind" android:theme="@style/Black.Middle.NoTitleBar"></activity>
+        <activity android:name="ActivityPost" android:launchMode="singleTop" android:screenOrientation="behind" android:theme="@style/Black.Middle.Transparent"></activity>
+        <activity android:name="ActivityAbout" android:launchMode="singleTop" android:screenOrientation="behind" android:theme="@style/Black.Middle"></activity>
+        <activity android:name="ActivitySettings" android:launchMode="singleTop" android:screenOrientation="behind" android:theme="@style/Black"></activity>
+        <activity android:name="ActivityTalk" android:launchMode="singleTop" android:screenOrientation="behind" android:theme="@style/Black.Middle.HalfTransparent"></activity>
+		<activity android:name="ActivityCheckFollowersBlocks" android:launchMode="singleTop" android:screenOrientation="behind" android:theme="@style/Black.Middle"></activity>
+
+    </application>
+</manifest>

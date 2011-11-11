@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menuMainUS" android:visible="true" android:title="US [停]" android:enabled="true" android:icon="@*android:drawable/ic_menu_stop"></item>
+    <item android:id="@+id/menuMainSettings" android:visible="true" android:title="@string/menuMainSettingsText" android:enabled="true" android:icon="@*android:drawable/ic_menu_manage"></item>
+    
+    <item android:id="@+id/menuMainAbout" android:visible="true" android:enabled="true" android:icon="@drawable/icon" android:title="@string/menuMainAboutText"></item>
+</menu>

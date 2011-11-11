@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="defaultFontSizeLarge">20sp</dimen>
+    <dimen name="defaultFontSizeMiddle">16sp</dimen>
+    <dimen name="defaultFontSizeSmall">12sp</dimen>
+</resources>

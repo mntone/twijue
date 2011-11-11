@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Black -->
+    <style name="Black" parent="android:style/Theme.Black">
+    	<item name="android:textColorPrimary">@color/BlackTextColorPrimary</item>
+    	<item name="android:textColorSecondary">@color/BlackTextColorSecondary</item>
+    </style>
+    
+    <!-- Black.* -->
+    <style name="Black.Small"  parent="Black"><item name="android:textSize">11sp</item></style>
+    <style name="Black.Middle" parent="Black"><item name="android:textSize">16sp</item></style>
+    <style name="Black.Large"  parent="Black"><item name="android:textSize">21sp</item></style>
+    
+    <!-- Black.*.NoTitleBar -->
+    <style name="Black.Small.NoTitleBar"  parent="Black.Small" ><item name="android:windowNoTitle">true</item></style>
+    <style name="Black.Middle.NoTitleBar" parent="Black.Middle"><item name="android:windowNoTitle">true</item></style>
+    <style name="Black.Large.NoTitleBar"  parent="Black.Large" ><item name="android:windowNoTitle">true</item></style>
+    
+    <!-- Black.*.Transparent -->
+    <style name="Black.Small.Transparent" parent="Black.Small">
+ 		<item name="android:windowIsTranslucent">true</item>
+ 		<item name="android:windowBackground">@color/BlackTransparentBackground</item>
+    </style>
+    <style name="Black.Middle.Transparent" parent="Black.Middle">
+ 		<item name="android:windowIsTranslucent">true</item>
+ 		<item name="android:windowBackground">@color/BlackTransparentBackground</item>
+    </style>
+    <style name="Black.Large.Transparent" parent="Black.Large">
+ 		<item name="android:windowIsTranslucent">true</item>
+ 		<item name="android:windowBackground">@color/BlackTransparentBackground</item>
+    </style>
+    
+    <!-- Black.*.HalfTransparent -->
+    <style name="Black.Small.HalfTransparent" parent="Black.Small.Transparent">
+ 		<item name="android:windowBackground">@color/BlackHalfTransparentBackground</item>
+    </style>
+    <style name="Black.Middle.HalfTransparent" parent="Black.Middle.Transparent">
+ 		<item name="android:windowBackground">@color/BlackHalfTransparentBackground</item>
+    </style>
+    <style name="Black.Large.HalfTransparent" parent="Black.Large.Transparent">
+ 		<item name="android:windowBackground">@color/BlackHalfTransparentBackground</item>
+    </style>
+    
+    <!-- White -->
+    <style name="White" parent="android:style/Theme.Light">
+    	<item name="android:textColorPrimary">@color/WhiteTextColorPrimary</item>
+    	<item name="android:textColorSecondary">@color/WhiteTextColorSecondary</item>
+    </style>
+    
+    <!-- White.* -->
+    <style name="White.Small"  parent="White"><item name="android:textSize">11sp</item></style>
+    <style name="White.Middle" parent="White"><item name="android:textSize">16sp</item></style>
+    <style name="White.Large"  parent="White"><item name="android:textSize">21sp</item></style>
+    
+    <!-- White.*.NoTitleBar -->
+    <style name="White.Small.NoTitleBar"  parent="White.Small" ><item name="android:windowNoTitle">true</item></style>
+    <style name="White.Middle.NoTitleBar" parent="White.Middle"><item name="android:windowNoTitle">true</item></style>
+    <style name="White.Large.NoTitleBar"  parent="White.Large" ><item name="android:windowNoTitle">true</item></style>
+
+    <!-- White.*.Transparent -->
+    <style name="White.Small.Transparent" parent="White.Small">
+ 		<item name="android:windowIsTranslucent">true</item>
+ 		<item name="android:windowBackground">@color/WhiteTransparentBackground</item>
+    </style>
+    <style name="White.Middle.Transparent" parent="White.Middle">
+ 		<item name="android:windowIsTranslucent">true</item>
+ 		<item name="android:windowBackground">@color/WhiteTransparentBackground</item>
+    </style>
+    <style name="White.Large.Transparent" parent="White.Large">
+ 		<item name="android:windowIsTranslucent">true</item>
+ 		<item name="android:windowBackground">@color/WhiteTransparentBackground</item>
+    </style>
+    
+    <!-- White.*.HalfTransparent -->
+    <style name="White.Small.HalfTransparent" parent="White.Small.Transparent">
+ 		<item name="android:windowBackground">@color/WhiteHalfTransparentBackground</item>
+    </style>
+    <style name="White.Middle.HalfTransparent" parent="White.Middle.Transparent">
+ 		<item name="android:windowBackground">@color/WhiteHalfTransparentBackground</item>
+    </style>
+    <style name="White.Large.HalfTransparent" parent="White.Large.Transparent">
+ 		<item name="android:windowBackground">@color/WhiteHalfTransparentBackground</item>
+    </style>
+    
+</resources>

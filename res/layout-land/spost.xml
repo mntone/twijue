@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="top">
+    <LinearLayout android:layout_height="fill_parent" android:layout_width="fill_parent" android:id="@+id/postMsg">
+        <EditText android:layout_width="wrap_content" android:layout_weight="1" android:imeOptions="flagNoExtractUi" android:id="@+id/postTweetMsg" android:gravity="top" android:textSize="@dimen/defaultFontSizeMiddle" android:layout_height="wrap_content" android:layout_gravity="bottom"></EditText>
+        <TextView android:id="@+id/postTweetCnt" android:layout_marginLeft="3dp" android:text="140" android:layout_width="wrap_content" android:minWidth="28dp" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:gravity="right" android:textSize="@dimen/defaultFontSizeMiddle" android:textColor="?android:textColorPrimary" android:layout_gravity="bottom"></TextView>
+        <Button android:layout_width="wrap_content" android:id="@+id/postShortenBtn" android:text="@string/shortenText" android:textSize="@dimen/defaultFontSizeMiddle" android:layout_height="wrap_content" android:layout_gravity="bottom"></Button>
+	    <Button android:id="@+id/postTweetBtn" android:layout_width="wrap_content" android:text="@string/tweetText" android:textSize="@dimen/defaultFontSizeMiddle" android:layout_height="wrap_content" android:layout_gravity="bottom"></Button>
+        <LinearLayout android:id="@+id/postBtn" android:layout_height="wrap_content" android:scrollbars="vertical" android:layout_width="wrap_content"></LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

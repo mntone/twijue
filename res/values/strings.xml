@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appName">twijue</string>
+    <string name="oAuthAcceptMsg">Twitter で twijue の利用を許可してください</string>
+    <string name="favoritePostingMsg">ふぁぼ中…</string>
+    <string name="unfavoritePostingMsg">あんふぁぼ中…</string>
+    <string name="deletePostingMsg">削除中…</string>
+    <string name="retweetPostingMsg">リツイート中…</string>
+    <string name="tweetPostingMsg">ツイート中…</string>
+    <string name="loadingMsg">ロード中…</string>
+    <string name="shorteningMsg">短縮中…</string>
+    <string name="followReceiveMsg">"%s" にフォローされました</string>
+    <string name="directMessageReceiveMsg" formatted="false">“%s”からダイレクトメッセージが来ました: “%s”</string>
+    <string name="favoriteReceiveMsg" formatted="false">“%s”に“%s”をふぁぼられました</string>
+    <string name="userStreamDisconnectMsg">UserStream が切断されました</string>
+    <string name="userStreamConnectMsg">UserStream に接続しました</string>
+    <string name="replyText">返信</string>
+    <string name="retweetText">リツイート</string>
+    <string name="favoriteText">ふぁぼる</string>
+    <string name="unfavoriteText">あんふぁぼる</string>
+    <string name="tweetText">ツイート</string>
+    <string name="loadText">ロード</string>
+    <string name="deleteText">削除</string>
+    <string name="talkText">会話の表示</string>
+    <string name="shortenText">URL を短縮</string>
+    <string name="userStreamConnectedText">US [再]</string>
+    <string name="userStreamDisconnectedText">US [停]</string>
+    <string name="retweetPlus" formatted="false">"%s" がリツイート</string>
+    <string name="overDailyStatusMsg">単位時間当たりの投稿数上限を超えています</string>
+    <string name="cannotConnectMsg">インターネットに接続されていない可能性があります</string>
+    <string name="verifiedMsg">アカウント“%s”が認証されました</string>
+    <string name="backgroundMsg">twijue がバックグラウンドで動作中です</string>
+    <string name="getFollowersMsg">片思いユーザーリストを取得中です</string>
+    <string name="getBlockUsersMsg">ブロックユーザーリストを取得中です</string>
+    <string name="forwordMsg">twijue に戻る</string>
+    <string name="aboutSupportMsg">twijue 公式アカウントもあります! @twijue</string>
+    
+    <string name="tweetTitle">ツイート - twijue</string>
+    <string name="talkTitle">会話の表示 - twijue</string>
+    <string name="setttingsTitle">設定 (自動再起動) - twijue</string>
+    <string name="aboutTitle">About - twijue</string>
+    
+    <string name="yesText">はい</string>
+    <string name="noText">いいえ</string>
+    
+    <string name="menuMainSettingsText">設定</string>
+    <string name="menuMainAboutText">twijue について</string>
+    
+    <string name="aboutAbout">twijue について</string>
+    <string name="aboutDeveloper">開発者</string>
+    <string name="aboutDeveloper1">＠mntone (モノトーン)</string>
+    <string name="aboutSupporter">サポーター</string>
+    <string name="aboutSupporter1">＠erudot (える)</string>
+    <string name="aboutSupporter2">＠blaanc (ぶらん)</string>
+    <string name="aboutSupporter3">＠coproce (やまねこ)</string>
+    <string name="aboutSupporter4">＠niconicokikka (キッカ)</string>
+    <string name="aboutSupporter5">＠rin_ne_01 (凛廻™)</string>
+    <string name="aboutPoweredBy">powered by</string>
+    
+    <string name="settingsAccount">アカウント設定</string>
+    
+    <string name="PREF_MAIN_ACCOUNT_RESET">PREF_MAIN_ACCOUNT_RESET</string>
+    <string name="settingsMainAccountResetTitle">メインアカウントのリセット</string>
+    <string name="settingsMainAccountResetSummary">アカウント“%s”をリセットします</string>
+    <string name="settingsMainAccountResetMsg">メインアカウントの認証を解除しますか</string>
+    
+    <string name="PREF_SUB_ACCOUNT_AUTH">PREF_SUB_ACCOUNT_AUTH</string>
+    <string name="settingsSubAccountAuthTitle">サブアカウントの認証</string>
+    <string name="settingsSubAccountAuthSummary">サブアカウントの認証をします。メインアカウントの規制により投稿できなかった場合に自動的にサブアカウントに投稿します。</string>
+    
+    <string name="PREF_SUB_ACCOUNT_RESET">PREF_SUB_ACCOUNT_RESET</string>
+    <string name="settingsSubAccountResetTitle">サブアカウントのリセット</string>
+    <string name="settingsSubAccountResetSummary">アカウント“%s”をリセットします</string>
+    <string name="settingsSubAccountResetMsg">サブアカウントの認証を解除しますか</string>
+    
+    <string name="settingsTweet">ツイート設定</string>
+    
+    <string name="PREF_ENTER_POST">PREF_ENTER_POST</string>
+    <string name="settingsEnterPostTitle">Enter 送信</string>
+    <string name="settingsEnterPostSummary">改行でツイートできるようにします</string>
+    
+    <string name="PREF_QUOTE_TWEET">PREF_QUOTE_TWEET</string>
+    <string name="settingsQuoteTweetTitle">引用ツイート</string>
+    <string name="settingsQuoteTweetSummary">あなた好みの引用ツイートにすることができます</string>
+    
+    <string name="settingsView">表示設定</string>
+    
+    <string name="PREF_THEME">PREF_THEME</string>
+    <string name="settingsThemeTitle">テーマの設定</string>
+    <string name="settingsThemeSummary">好みの外観に切り替えることができます</string>
+    
+    <string name="PREF_FONT_SIZE">PREF_FONT_SIZE</string>
+    <string name="settingsFontSizeTitle">文字の大きさ</string>
+    <string name="settingsFontSizeSummary">好みの文字の大きさに切り替えることができます</string>
+    
+    <string name="PREF_ICON_SIZE">PREF_ICON_SIZE</string>
+    <string name="settingsIconSizeTitle">アイコンの大きさ</string>
+    <string name="settingsIconSizeSummary">好みのアイコンの大きさに切り替えることができます</string>
+    
+    <string name="PREF_SKELETON_POST_SCREEN">PREF_SKELETON_POST_SCREEN</string>
+    <string name="skeletonPostScreenTitle">スケルトンポスト画面</string>
+    <string name="skeletonPostScreenSummary">ツイートするときに、ツイートが見えるよう、背景を透明にします</string>
+    
+    <string name="PREF_BACK_LIGHT">PREF_BACK_LIGHT</string>
+    <string name="settingsBackLightTitle">バックライト消灯の制御</string>
+    <string name="settingsBackLightSummary">本体設定とは関係なく、バックライトを消灯させないようにすることが可能です</string>
+    
+    <string name="PREF_ORIENTATION">PREF_ORIENTATION</string>
+    <string name="settingsOrientationTitle">画面の向き</string>
+    <string name="settingsOrientationSummary">本体設定とは関係なく、画面を固定することが可能です</string>
+</resources>

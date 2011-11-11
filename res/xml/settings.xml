@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/settingsAccount">
+        <PreferenceScreen android:title="@string/settingsMainAccountResetTitle" android:key="@string/PREF_MAIN_ACCOUNT_RESET"></PreferenceScreen>
+        <PreferenceScreen android:title="@string/settingsSubAccountAuthTitle" android:key="@string/PREF_SUB_ACCOUNT_AUTH" android:summary="@string/settingsSubAccountAuthSummary"></PreferenceScreen>
+        <PreferenceScreen android:title="@string/settingsSubAccountResetTitle" android:key="@string/PREF_SUB_ACCOUNT_RESET"></PreferenceScreen>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settingsTweet">
+        <CheckBoxPreference android:summary="@string/settingsEnterPostSummary" android:title="@string/settingsEnterPostTitle" android:key="@string/PREF_ENTER_POST"></CheckBoxPreference>
+        <ListPreference android:entries="@array/quoteTweetValues" android:entryValues="@array/quoteTweetKeys" android:title="@string/settingsQuoteTweetTitle" android:key="@string/PREF_QUOTE_TWEET" android:summary="@string/settingsQuoteTweetSummary"></ListPreference>    
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/settingsView">
+        <ListPreference android:entryValues="@array/themeKeys" android:entries="@array/themeValues" android:title="@string/settingsThemeTitle" android:summary="@string/settingsThemeSummary" android:key="@string/PREF_THEME"></ListPreference>
+        <ListPreference android:entryValues="@array/fontSizeKeys" android:entries="@array/fontSizeValues" android:title="@string/settingsFontSizeTitle" android:summary="@string/settingsFontSizeSummary" android:key="@string/PREF_FONT_SIZE"></ListPreference>
+        <ListPreference android:entryValues="@array/iconSizeKeys" android:entries="@array/iconSizeValues" android:title="@string/settingsIconSizeTitle" android:summary="@string/settingsIconSizeSummary" android:key="@string/PREF_ICON_SIZE"></ListPreference>
+        <CheckBoxPreference android:summary="@string/skeletonPostScreenSummary" android:title="@string/skeletonPostScreenTitle" android:key="@string/PREF_SKELETON_POST_SCREEN"></CheckBoxPreference>
+        <CheckBoxPreference android:title="@string/settingsBackLightTitle" android:summary="@string/settingsBackLightSummary" android:key="@string/PREF_BACK_LIGHT"></CheckBoxPreference>
+        <ListPreference android:entryValues="@array/orientationKeys" android:entries="@array/orientationValues" android:title="@string/settingsOrientationTitle" android:summary="@string/settingsOrientationSummary" android:key="@string/PREF_ORIENTATION"></ListPreference>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
