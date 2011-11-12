@@ -14,6 +14,7 @@ public class MyStatus
 	private long _userId = 0;
 	private String _rname = "";
 	private String _rsname = "";
+	private long _rsstatusId = 0;
 	private long _r2statusId = 0;
 	private String _r2name = "";
 	private String _tweet = "";
@@ -41,6 +42,7 @@ public class MyStatus
 			_userId = stat.getRetweetedStatus().getUser().getId();
 			_rname = stat.getUser().getName();
 			_rsname = stat.getUser().getScreenName();
+			_rsstatusId = stat.getId();
 			_tweetRaw = _tweet = stat.getRetweetedStatus().getText();
 			//_tweetRaw = _tweet = _tweet.substring( ( "RT @" + _sname + ": " ).length(), _tweet.length() );
 			_client = stat.getRetweetedStatus().getSource();
@@ -187,6 +189,11 @@ public class MyStatus
 	public String getRetweetedScreenName()
 	{
 		return _rsname;
+	}
+	
+	public long getRetweetedStatusId()
+	{
+		return _rsstatusId;
 	}
 	
 	public long getReplyToStatusId()

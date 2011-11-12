@@ -392,9 +392,9 @@ public class ActivityHome extends Activity
 			setTheme( R.style.Black );
 			
 			this.myContext = context;
-			this.screenName = status.getScreenName();
+			this.screenName = status.isRt() ? status.getRetweetedScreenName() : status.getScreenName();
 			this.text = status.getTweetRaw();
-			this.id = status.getStatusId();
+			this.id = status.isRt() ? status.getRetweetedStatusId() : status.getStatusId();
 			this.inReplyToName = status.getReplyToScreenName();
 			this.mentions = status.getUserMentionEntities();
 			this.urls = status.getURLEntities();
@@ -867,6 +867,7 @@ public class ActivityHome extends Activity
 			public void onFollow( User source, User followedUser )
 			{
 				publishProgress( "onFollow", source.getName() );
+				Const.FOLLOWER_LIST[Const.FOLLOWER_LIST.length + 1] = source.getId();
 			}
 			
 			/*@Override

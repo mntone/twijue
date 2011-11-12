@@ -9,8 +9,8 @@
     
     <!-- Black.* -->
     <style name="Black.Small"  parent="Black"><item name="android:textSize">11sp</item></style>
-    <style name="Black.Middle" parent="Black"><item name="android:textSize">16sp</item></style>
-    <style name="Black.Large"  parent="Black"><item name="android:textSize">21sp</item></style>
+    <style name="Black.Middle" parent="Black"><item name="android:textSize">13.5sp</item></style>
+    <style name="Black.Large"  parent="Black"><item name="android:textSize">16sp</item></style>
     
     <!-- Black.*.NoTitleBar -->
     <style name="Black.Small.NoTitleBar"  parent="Black.Small" ><item name="android:windowNoTitle">true</item></style>
@@ -50,8 +50,8 @@
     
     <!-- White.* -->
     <style name="White.Small"  parent="White"><item name="android:textSize">11sp</item></style>
-    <style name="White.Middle" parent="White"><item name="android:textSize">16sp</item></style>
-    <style name="White.Large"  parent="White"><item name="android:textSize">21sp</item></style>
+    <style name="White.Middle" parent="White"><item name="android:textSize">13.5sp</item></style>
+    <style name="White.Large"  parent="White"><item name="android:textSize">16sp</item></style>
     
     <!-- White.*.NoTitleBar -->
     <style name="White.Small.NoTitleBar"  parent="White.Small" ><item name="android:windowNoTitle">true</item></style>
